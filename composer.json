@@ -21,8 +21,7 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "doctrine/cache": "1.13.*",
-        "doctrine/orm": "2.19.*",
+        "doctrine/orm": "2.9.*",
         "shardj/zf1-future": "1.*",
         "smarty/smarty": "4.3.4"
     },
