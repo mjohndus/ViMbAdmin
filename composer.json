@@ -21,9 +21,10 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "doctrine/orm": "2.20.*",
+        "doctrine/cache": "1.13.*",
+        "doctrine/orm": "2.19.*",
         "shardj/zf1-future": "1.*",
-        "smarty/smarty": "~4.3.5"
+        "smarty/smarty": "4.3.4"
     },
     "require-dev": {
         "opensolutions/minify": "1.*"
@@ -45,6 +46,10 @@
     "config": {
         "platform": {
             "php": "8.0"
+        },
+        "audit": {
+            "block-insecure": false
         }
+
     }
 }
